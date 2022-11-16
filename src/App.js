@@ -1,9 +1,12 @@
 import './App.css';
+import Home from './components/Home'
+import Tip from './components/Tip';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Working on Slider </h1>
+    <div className="App m-5">
+      <Home/>
+      <Tip />
     </div>
   );
 }
